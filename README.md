@@ -14,9 +14,9 @@ Generate datasets of captchas *and* their character-level masks for training com
 
 ## 📸 Examples
 
-| Captcha Example                   | Character Mask Example                |
-| ---------------------------------- | ------------------------------------- |
-| ![captcha example](examples/captcha.png) | ![mask example](examples/mask.png)       |
+| Captcha Example                   | Character Mask Example             |
+| ---------------------------------- | -----------------------------------|
+| ![captcha example](examples/captcha.png) | ![mask example](examples/mask.png)    |
 
 *(Replace the image paths above with your own example images)*
 
@@ -38,7 +38,7 @@ pip install git+https://github.com/your-username/captcha-masks.git
 
 ### 3. Generate captchas and masks
 ```bash
-python generate_dataset.py --output ./my_captcha_dataset --count 10000
+python generate_dataset.py --count <nbr of captchas to generate> --output /path/to/output/directory --length <nbr of characters in each captcha>
 ```
 
 ## Requirements
@@ -49,7 +49,4 @@ numpy, Pillow, etc. (see requirements.txt)
 
 ## License
 MIT
-
-
-
 
