@@ -42,10 +42,7 @@ python generate_dataset.py --count <nbr of captchas to generate> --output /path/
 ```
 
 ## Requirements
-
-Python 3.7+
 captcha (modified fork)
-numpy, Pillow, etc. (see requirements.txt)
 
 ## License
 MIT
